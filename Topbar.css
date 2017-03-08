@@ -1,0 +1,48 @@
+header
+{
+  width: 1000px;
+  height: 90px;
+  background: #fff;
+  position: relative;
+  text-align: center;
+}
+
+header .logo
+{
+  float: left;
+}
+header .logo > a
+{
+  display: inline-block;
+  margin-left: 30px;
+  margin-right: 100px;
+  margin-top: 18px;
+}
+
+header .nav
+{
+  display: inline-block;
+  line-height: 68px;
+  text-align: center;
+  float: left;
+  width: 700px;
+  white-space: nowrap;
+}
+
+header .nav > a
+{
+  margin-right: 60px;
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+  letter-spacing: 1px;
+  position: relative;
+}
+header .nav > a:hover{color:green}
+
+header .search
+{
+  display: inline-block;
+}
+header .search>form>input{
+}
